@@ -84,7 +84,7 @@ def play(game, x_player, o_player, print_game = True):
         time.sleep(.8)
     if print_game:
         print("it's a tie")
-        print("Test")
+
 if __name__ == '__main__':
     x_player = HumanPlayer("X")
     o_player = RendomComputerPlayer("O")
